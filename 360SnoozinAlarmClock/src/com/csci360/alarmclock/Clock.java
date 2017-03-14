@@ -6,5 +6,25 @@
 package com.csci360.alarmclock;
 
 public class Clock {
+    // Return type may need to be changed
+    public String getTime() {
+        return "";
+    }
     
+    // Param type may need to be changed
+    public void setTime(String time) {
+        
+    }
+    
+    public boolean getUse24HourFormat() {
+        return false;
+    }
+    
+    public void setUse24HourFormat(boolean use24HourFormat) {
+        
+    }
+    
+    public Alarm[] getAlarms() {
+        return new Alarm[0];
+    }
 }

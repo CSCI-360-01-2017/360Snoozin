@@ -7,4 +7,9 @@ package com.csci360.alarmclock;
 
 public abstract class AudioInput {
     
+    public abstract void playAudio();
+    
+    public abstract AudioInput getNext();
+    
+    public abstract AudioInput getPrev();
 }

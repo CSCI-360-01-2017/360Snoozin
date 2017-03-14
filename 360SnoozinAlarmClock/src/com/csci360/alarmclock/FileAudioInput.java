@@ -5,18 +5,17 @@
  */
 package com.csci360.alarmclock;
 
-public class Radio extends Thread {
+public class FileAudioInput {
     
-    // Param type may need to be changed
-    public void changeRadioStation(String direction) {
+    public void playAudio() {
         
     }
     
-    public boolean getIsPlaying() {
-        return false;
+    public AudioInput getNext() {
+       return null; 
     }
     
-    public void setIsPlaying(boolean isPlaying) {
-        
+    public AudioInput getPrev() {
+        return null;
     }
 }
