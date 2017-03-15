@@ -5,7 +5,7 @@
  */
 package com.csci360.alarmclock;
 
-public class FileAudioInput {
+public class FileAudioInput extends AudioInput {
     
     public void playAudio() {
         
