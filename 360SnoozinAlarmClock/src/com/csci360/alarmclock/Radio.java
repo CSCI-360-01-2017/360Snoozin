@@ -5,6 +5,18 @@
  */
 package com.csci360.alarmclock;
 
-public class Radio {
+public class Radio extends Thread {
     
+    // Param type may need to be changed
+    public void changeRadioStation(String direction) {
+        
+    }
+    
+    public boolean getIsPlaying() {
+        return false;
+    }
+    
+    public void setIsPlaying(boolean isPlaying) {
+        
+    }
 }
