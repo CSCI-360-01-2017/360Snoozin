@@ -4,16 +4,23 @@
  * and open the template in the editor.
  */
 package com.csci360.alarmclock;
+import org.joda.time.DateTime;
 
 public class Alarm {
     
-    // Return type may need to be changed
-    public String getTime() {
-        return "";
+    public DateTime getTime() {
+        return new DateTime();
     }
     
-    // Param type may need to be changed
-    public void setTime(String time) {
+    public void setTime(DateTime time) {
+        
+    }
+    
+    public DateTime getSnoozeTime() {
+        return new DateTime();
+    }
+    
+    public void setSnoozeTime(DateTime snoozeTime) {
         
     }
     
@@ -29,21 +36,11 @@ public class Alarm {
         return false;
     }
     
-    public boolean setIsSounding(boolean isSounding) {
-        return false;
+    public void setIsSounding(boolean isSounding) {
+
     }
     
     public void snooze() {
-        
-    }
-    
-    // Return type may need to be changed
-    public String getSnoozeTime() {
-        return "";
-    }
-    
-    // Param type may need to be changed
-    public void setSnoozeTime(String snoozeTime) {
         
     }
 }

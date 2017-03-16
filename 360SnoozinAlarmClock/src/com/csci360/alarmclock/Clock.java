@@ -4,15 +4,15 @@
  * and open the template in the editor.
  */
 package com.csci360.alarmclock;
+import org.joda.time.DateTime;
 
 public class Clock {
-    // Return type may need to be changed
-    public String getTime() {
-        return "";
+
+    public DateTime getTime() {
+        return new DateTime();
     }
     
-    // Param type may need to be changed
-    public void setTime(String time) {
+    public void setTime(DateTime time) {
         
     }
     
